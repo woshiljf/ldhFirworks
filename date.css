@@ -1,0 +1,38 @@
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    color: #fff;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    transform: translate(-50%, -80%);
+    text-align: center;
+}
+
+.time {
+    font-size: 12em;
+}
+
+.datebox {
+    font-size: 5em;
+}
+
+.study {
+    font-size: 5em;
+}
+/* 倒计时 */
+
+.name {
+    color: tomato;
+}
+
+.navgation {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
